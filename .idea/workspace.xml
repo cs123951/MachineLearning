@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a56802-59d0-4dbb-9d51-66082b8368e2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch5_5_BP_algorithm.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/ch5_5_BP_algorithm-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/ch5_5_BP_algorithm-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch5_5_BP_algorithm.ipynb" afterPath="$PROJECT_DIR$/ch5_5_BP_algorithm.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BayesNet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch6_2_and_ch6_8.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch7_3_laplacian_bayes.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch7_6_AODE.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch5_6_improved_BP_algorithm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch5_7_RBF_net.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MachineLearning.iml" afterPath="$PROJECT_DIR$/.idea/MachineLearning.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,40 +20,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MachineLearning$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1518267906997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MachineLearning$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1520394430738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$ch4_3_ID3_decision_tree.coverage" NAME="ch4_3_ID3_decision_tree Coverage Results" MODIFIED="1518851327443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MachineLearning$ttest.coverage" NAME="ttest Coverage Results" MODIFIED="1520401974191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$ch5_6_improved_BP_algorithm.coverage" NAME="ch5_6_improved_BP_algorithm Coverage Results" MODIFIED="1519886639156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$ch5_5_BP_algorithm.coverage" NAME="ch5_5_BP_algorithm Coverage Results" MODIFIED="1519574610228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$ch5_7_RBF_net.coverage" NAME="ch5_7_RBF_net Coverage Results" MODIFIED="1519895374751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="bp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bp.py">
+      <file leaf-file-name="BayesNet.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BayesNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="221" column="18" lean-forward="true" selection-start-line="221" selection-start-column="18" selection-end-line="221" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ch5_6_improved_BP_algorithm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5_6_improved_BP_algorithm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="135" column="24" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="141" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ch5_7_RBF_net.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch5_7_RBF_net.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="74" selection-end-column="76" />
-              <folding />
+            <state relative-caret-position="357">
+              <caret line="38" column="67" lean-forward="false" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +53,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Node</find>
+      <find>pt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -72,12 +62,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/ch4_3_ID3_decision_tree.py" />
         <option value="$PROJECT_DIR$/ch5_5_BP_algorithm.py" />
         <option value="$PROJECT_DIR$/bp.py" />
         <option value="$PROJECT_DIR$/ch5_6_improved_BP_algorithm.py" />
         <option value="$PROJECT_DIR$/ch5_7_RBF_net.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/ttest.py" />
+        <option value="$PROJECT_DIR$/BayesNetwork.py" />
+        <option value="$PROJECT_DIR$/BayesNet.py" />
       </list>
     </option>
   </component>
@@ -88,10 +81,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="183" />
-    <option name="y" value="39" />
-    <option name="width" value="1400" />
-    <option name="height" value="984" />
+    <option name="x" value="30" />
+    <option name="y" value="44" />
+    <option name="width" value="1878" />
+    <option name="height" value="987" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -126,7 +122,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VGG" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,14 +136,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch5_7_RBF_net">
+  <component name="RunManager" selected="Python.ttest">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\files\anaconda\python.exe" />
+      <option name="SDK_HOME" value="D:\Softwares\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -231,19 +227,39 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="5">
+    <configuration name="ttest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MachineLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ttest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Python.ch4_3_ID3_decision_tree" />
       <item index="2" class="java.lang.String" itemvalue="Python.ch5_5_BP_algorithm" />
       <item index="3" class="java.lang.String" itemvalue="Python.ch5_6_improved_BP_algorithm" />
       <item index="4" class="java.lang.String" itemvalue="Python.ch5_7_RBF_net" />
+      <item index="5" class="java.lang.String" itemvalue="Python.ttest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.ch5_7_RBF_net" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ch5_6_improved_BP_algorithm" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ch5_5_BP_algorithm" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ch4_3_ID3_decision_tree" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.ttest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ch5_7_RBF_net" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ch5_6_improved_BP_algorithm" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ch5_5_BP_algorithm" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ch4_3_ID3_decision_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +287,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2969247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2969247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -346,23 +362,8 @@
           <line>37</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ch5_6_improved_BP_algorithm.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ch5_6_improved_BP_algorithm.py</url>
-          <line>122</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ch5_7_RBF_net.py</url>
-          <line>79</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -384,19 +385,10 @@
     <entry file="file://$PROJECT_DIR$/ch4_3_ID3_decision_tree.py" />
     <entry file="file://D:/files/anaconda/Lib/site-packages/pandas/core/generic.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://D:/files/anaconda/Lib/site-packages/pandas/core/generic.py" />
     <entry file="file://D:/files/anaconda/Lib/site-packages/pandas/indexes/base.py" />
     <entry file="file://$PROJECT_DIR$/ch4_3_ID3_decision_tree.py" />
     <entry file="file://$PROJECT_DIR$/ch5_5_BP_algorithm.py" />
-    <entry file="file://$PROJECT_DIR$/bp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="221" column="18" lean-forward="true" selection-start-line="221" selection-start-column="18" selection-end-line="221" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch5_6_improved_BP_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -410,6 +402,66 @@
         <state relative-caret-position="354">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="74" selection-end-column="76" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../VGG/src/train_general_emotion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/probatoolbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1754">
+          <caret line="378" column="8" lean-forward="false" selection-start-line="378" selection-start-column="8" selection-end-line="378" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="221" column="18" lean-forward="false" selection-start-line="221" selection-start-column="18" selection-end-line="221" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BayesNetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BayesNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="38" column="67" lean-forward="false" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

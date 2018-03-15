@@ -1,0 +1,16 @@
+// BayesNet
+digraph {
+	color [style=solid]
+	root [style=solid]
+	knocks [style=solid]
+	texture [style=solid]
+	navel [style=solid]
+	touch [style=solid]
+	label [style=solid]
+		color -> root
+		color -> knocks
+		color -> texture
+		color -> navel
+		color -> touch
+		color -> label
+}

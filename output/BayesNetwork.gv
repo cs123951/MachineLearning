@@ -1,0 +1,13 @@
+// Bayes Network
+digraph {
+	edge [dir=back]
+		C [style=solid]
+		T [style=solid]
+		A [style=solid]
+		M [style=solid]
+		J [style=solid]
+			C -> A
+			T -> A
+			A -> M
+			A -> J
+}
